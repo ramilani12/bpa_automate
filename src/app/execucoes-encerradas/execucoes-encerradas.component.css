@@ -1,0 +1,62 @@
+.mark-sucesso{
+    background-color:  green !important;
+    color: white;
+    font-weight: bold;
+}
+
+.mark-falha{
+    background-color: #C20 !important;
+    color: white;
+    font-weight: bold;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.ultimasExecucoes {
+    /*border: 1px solid rgb(1,2,190); */
+    margin: 50px 0;
+    position: relative;
+    padding-left: 8%;
+    /*box-shadow: 0 2px 5px -3px rgb(1,2,190); */
+    border-radius: 1px;
+}
+.ultimasExecucoes:before {
+    content: "Últimas Execuções";
+    display: inline-block;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+    
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ultimasExecucoes:after {
+    content: '';
+    display: block;
+    top: 0;
+    left: 80px;
+    background: linear-gradient( rgba(255, 255, 255, 0));
+    height: 20px;
+}
+.ultimasExecucoes ul li {
+    list-style: none;
+    padding: 10px 0;
+}

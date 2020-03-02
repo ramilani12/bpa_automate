@@ -1,0 +1,10 @@
+{
+    "/BPAManagement11": {
+      "target": "http://10.248.0.51:9708",
+      "secure": false,
+      "pathRewrite": {
+        "^/BPAManagement11": "/BPAManagement"
+      },
+      "changeOrigin": true
+    }
+  }

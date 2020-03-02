@@ -1,0 +1,14 @@
+<!--Execucoes Encerradas-->
+<div class="container-fluid">
+  <div class="row" style="padding-top: 0px">
+      <div  #ultimasExecucoes id="ultimasExecucoes" class="ultimasExecucoes col-sm-12">
+        <ul>
+              <li *ngFor="let workFlow of execucoesEncerradas" class="mark-{{workFlow.exibeSucessoExecucao()}}">
+              {{workFlow.nomeWorkFlow}} - Data Início: {{workFlow.dataInicioWf | date : 'dd/MM/yyyy HH:mm:ss'}} 
+              - Data Encerramento: {{workFlow.dataEncerramentoWf | date : 'dd/MM/yyyy HH:mm:ss'}} 
+              - Resultado: {{workFlow.resultadoExecucao}}
+              </li>
+        </ul>
+      </div>
+  </div>
+</div>

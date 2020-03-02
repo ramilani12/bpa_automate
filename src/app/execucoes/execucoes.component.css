@@ -1,0 +1,9 @@
+.fontexecucao{
+    font-size: 15px;
+}
+
+.botaoAtualizar {
+    background-color: rgb(1,2,190); 
+    border-color: rgb(1,2,190); 
+    font-size: .700rem;
+}

@@ -1,0 +1,15 @@
+Versão 10
+
+target: 'http://azrwcrpaprod01.votorantim.grupo:9608'
+
+export const USER_CREDENTIALS = "Basic YXV0b21hdGVfYXBwczphbUBhcHBsaWNhdGlvbg=="
+
+
+Versão 11
+
+target : 'http://10.248.0.51:9708'
+
+export const USER_CREDENTIALS = "Basic YXV0b21hdGVfYXBpOmF1dG9tYXRlMTE="
+
+
+
