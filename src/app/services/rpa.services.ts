@@ -47,7 +47,7 @@ export class RpaService {
                                 agente.online = item.Online
                                 agente.estadoAtual = estadoAtual
 
-                                var workFlow: Workflow = new Workflow()
+                                var workFlow: Workflow = new Workflow()   
                                 workFlow.idWorkflow =  ''
                                 workFlow.nomeTask   = ''
                                 workFlow.nomeWorkFlow  = ''
@@ -265,9 +265,6 @@ export class RpaService {
 
         return promise
     }
-
-
-
 
     /**
      * Ordena um Array baseado na Property
